@@ -1,0 +1,39 @@
+footer{
+    position: relative;
+        height: 200px;
+        background: #ffffff;
+        width: 100%;
+        color: #000000;
+        margin-top:5rem ;
+    }
+    .cajafoot{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        align-items: center;
+        padding-left: 10%;
+    }
+    footer img{
+        width: 200px;
+    }
+    footer .contacto{
+        display: flex;
+        gap: 30px;
+        width: 100%;
+    }
+    footer .contacto h3{
+        font-weight: 600;
+    }
+    footer .contacto li{
+    list-style: none;
+    font-weight: 700;
+    }
+    
+    footer .contacto li a {
+        text-decoration: none;
+        color: #000000;
+    }
+    footer .us{
+    width: 300px;
+    color: #000;
+    }
